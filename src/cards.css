@@ -1,12 +1,9 @@
-html {
+body {
     font-family: "Raleway", "Helvetica", sans-serif;
     font-weight: 400;
     color: #2F3442;
-    height: 100%;
     background-color: #FFFFFF;
-    width: 710px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .icon {color: #BCD2DA;}
@@ -54,6 +51,8 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    width: 710px;
+    margin: auto;
   }
   
     .cardGroup__card {
@@ -75,12 +74,9 @@ html {
       flex-shrink: 1;
       flex-basis: 0;
     }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .cardGroup{
-    width: 100%;
-    display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    width: 125px;
   }
 }
